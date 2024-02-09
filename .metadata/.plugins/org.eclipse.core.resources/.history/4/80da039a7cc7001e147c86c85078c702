@@ -1,0 +1,17 @@
+package com.promineotech;
+
+public class SpacedLogger implements Logger{
+
+	@Override
+	public void log(String log) {
+		
+		
+	}
+
+	@Override
+	public void error(String error) {
+		
+		
+	}
+
+}

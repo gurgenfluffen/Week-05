@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\ednag\Desktop\Week-05\.metadata\.plugins\org.eclipse.jdt.core
+502079147.index
+1865797976.index
+987343950.index

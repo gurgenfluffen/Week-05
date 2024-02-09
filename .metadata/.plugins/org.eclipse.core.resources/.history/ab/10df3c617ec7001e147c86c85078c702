@@ -1,0 +1,32 @@
+package com.promineotech;
+
+public class SpacedLogger implements Logger{
+
+	@Override
+	public void log(String log) {
+		
+		String logSpace = " ";
+		
+		for (int i = 0; i < log.length(); i++) {
+			
+			logSpace = log.charAt(i) + " ";
+			
+			
+		}
+		System.out.println(logSpace);
+	}
+
+	@Override
+	public void error(String error) {
+		
+		String logSpace = " ";
+		
+for (int i = 0; i < error.length(); i++) {
+			
+			logSpace = error.charAt(i) + " ";
+			
+		}
+		System.out.println("ERROR: " + logSpace);
+	}
+
+}
